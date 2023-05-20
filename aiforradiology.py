@@ -45,4 +45,4 @@ for box in boxes:
 df = pd.DataFrame(results)
 print(df)
 
-df.to_excel('/path/to/file.xlsx')
+df.to_excel('./aiforradiology.xlsx')
